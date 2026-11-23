@@ -4,8 +4,7 @@
   "unit": 1,
   "level": "core",
   "definition":
-    "The celestial sphere is **an abstract and imaginary sphere** of infinite radius centered on Earth or an observer, onto which all stars, planets, and sky objects appear **projected**.
-  \n\n A “point” on the celestial sphere represents the **directions** of celestial objects in the sky. That is to say, any star in come specific direction, occupies a fixed point on the celestial sphere."
+    "The celestial sphere is **an abstract and imaginary sphere** of infinite radius centered on Earth or an observer, onto which all stars, planets, and sky objects appear **projected**. \n\n A “point” on the celestial sphere represents the **directions** of celestial objects in the sky. That is to say, any star in come specific direction, occupies a fixed point on the celestial sphere."
   ,
   "misconceptions": [
     "The celestial sphere is not a physical shell.",
