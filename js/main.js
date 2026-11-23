@@ -73,7 +73,7 @@ function glossary() {
   app.innerHTML = `
   <div class="section-label">ASTRA / KNOWLEDGE BASE</div>
   <h1>Glossary</h1>
-  <p class="lede">Search the terminology behind the sky. Entries marked Draft are not instructor-reviewed.</p>
+  <p class="lede">Search the terminology to explore its definition, related concepts, and more resources to help you navigate astronomy.</p>
   <input class="search" id="search" placeholder="Search a concept or unit..." aria-label="Search glossary">
   <div class="term-list" id="terms"></div>`;
 
