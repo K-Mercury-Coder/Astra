@@ -3,10 +3,11 @@
   "category": "Celestial Coordinates",
   "unit": 1,
   "level": "basic",
-  "definition": "Declination is the angular distance of the celestial equator on the celestial sphere. It is the celestial latitude.\n[Range: -90° (south celestial pole); 0° at the celestial equator]\nAbbreviation: dec; Symbol: δ\n\nDescription: A star is located at a declination of N° on the celestial sphere.\n\nA star on the celestial sphere is specified by its declination and Right Ascension (RA).",
+  "definition": "Declination is the angular distance of a direction north or south of the celestial equator, measured along a celestial meridian. It is the celestial latitude.\n\nIt ranges from -90° at the South Celestial Pole to +90° at the North Celestial Pole, with 0° at the celestial equator.\n\nAbbreviation: dec; Symbol: δ\nDescription: A star is located at a declination of N° on the celestial sphere.\n\nTogether with Right Ascension (RA), declination specifies a direction on the celstial sphere.",
   "related": [
     "Latitude",
-    "Right Ascension (RA)"
+    "Right Ascension (RA)",
+    "Celestial Equator"
   ],
   "moreResources": [
     {
