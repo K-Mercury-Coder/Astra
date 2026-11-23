@@ -1,0 +1,19 @@
+{
+  "term": "Latitude",
+  "category": "Geographic Coordinates",
+  "unit": 1,
+  "level": "basic",
+  "definition": "Latitude is a geographic coordinate that specifies the north-south position of a point on the surface of the Earth or another celestial body. [Range: -90° (south pole) ~ 90° (north pole); 0° at the Equator]\n\nAll points of a given latitude lie along a circle known as a parallel. The equator is the longest parallel, while parallels near the poles are shorter.",
+  "related": [
+    "Meridians",
+    "Prime meridian",
+    "Declination",
+    "Longitude"
+  ],
+  "moreResources": [
+    {
+      "title": "Wikipedia Latitude",
+      "url": "https://en.wikipedia.org/wiki/Latitude"
+    }
+  ]
+}
