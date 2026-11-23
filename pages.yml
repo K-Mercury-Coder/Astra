@@ -1,0 +1,78 @@
+# Pages CMS visual editing config. The repository's root must contain this file.
+media:
+  input: assets
+  output: /assets
+content:
+  - name: glossary
+    label: Astronomy Glossary
+    type: collection
+    path: content/glossary
+    format: json
+    filename: "{primary}.json"
+    exclude:
+      - manifest.json
+    view:
+      primary: term
+    fields:
+      - name: id
+        label: Permanent ID (do not change)
+        type: string
+        required: true
+      - name: term
+        label: Term
+        type: string
+        required: true
+      - name: category
+        label: Category
+        type: string
+      - name: unit
+        label: Unit
+        type: number
+      - name: level
+        label: Entry level
+        type: select
+        options:
+          values: [core, basic]
+      - name: definition
+        label: Definition
+        type: text
+      - name: intuition
+        label: Intuitive explanation
+        type: text
+      - name: misconceptions
+        label: Common misconceptions
+        type: string
+        list: true
+      - name: takeaway
+        label: Key takeaway
+        type: text
+      - name: related
+        label: Related entry IDs
+        type: string
+        list: true
+      - name: source
+        label: Course source
+        type: object
+        fields:
+          - name: pages
+            label: Pages
+            type: string
+          - name: section
+            label: Section
+            type: string
+      - name: furtherReading
+        label: Further reading
+        type: object
+        fields:
+          - name: title
+            type: string
+          - name: url
+            type: string
+      - name: model
+        label: Interactive model path
+        type: string
+      - name: status
+        label: Review status
+        type: select
+        options:
+          values: [draft, published]
