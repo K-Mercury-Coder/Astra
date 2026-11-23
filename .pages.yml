@@ -1,4 +1,6 @@
-# Pages CMS visual editing config. The repository's root must contain this file.
+# Pages CMS visual editing config.
+# ASTRA Content Management
+
 media:
   input: assets
   output: /assets
@@ -8,69 +10,59 @@ content:
     type: collection
     path: content/glossary
     format: json
+    
     filename: "{primary}.json"
+    
     exclude:
       - manifest.json
+      
     view:
       primary: term
     fields:
-      - name: id
-        label: Permanent ID (do not change)
-        type: string
-        required: true
       - name: term
         label: Term
         type: string
         required: true
+        
       - name: category
         label: Category
         type: string
+        
       - name: unit
         label: Unit
         type: number
+        
       - name: level
-        label: Entry level
+        label: Level
         type: select
         options:
-          values: [core, basic]
+          values: [basic, expected, pro]
+      
       - name: definition
         label: Definition
         type: text
-      - name: intuition
-        label: Intuitive explanation
-        type: text
-      - name: misconceptions
-        label: Common misconceptions
-        type: string
-        list: true
-      - name: takeaway
-        label: Key takeaway
-        type: text
+        
       - name: related
-        label: Related entry IDs
+        label: Related Concepts
         type: string
         list: true
-      - name: source
-        label: Course source
+
+      - name: moreResources
+        label: More Resources
         type: object
-        fields:
-          - name: pages
-            label: Pages
-            type: string
-          - name: section
-            label: Section
-            type: string
-      - name: furtherReading
-        label: Further reading
-        type: object
+        list: true
         fields:
           - name: title
+            label: Resource Title
             type: string
           - name: url
+            label: Resource URL
             type: string
+
       - name: model
         label: Interactive model path
         type: string
+      
       - name: status
         label: Review status
         type: select
