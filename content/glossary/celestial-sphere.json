@@ -2,26 +2,17 @@
   "term": "Celestial Sphere",
   "category": "The Celestial Sphere",
   "unit": 1,
-  "level": "core",
-  "definition":
-    "The celestial sphere is **an abstract and imaginary sphere** of infinite radius centered on Earth or an observer, onto which all stars, planets, and sky objects appear **projected**. \n\n A “point” on the celestial sphere represents the **directions** of celestial objects in the sky. That is to say, any star in come specific direction, occupies a fixed point on the celestial sphere."
-  ,
-  "misconceptions": [
-    "The celestial sphere is not a physical shell.",
-    "Stars represented on it are not equally distant from Earth."
-  ],
-  "takeaway": "A map of directions, not of distances.",
+  "level": "basic",
+  "definition": "The celestial sphere is **an abstract and imaginary sphere** of infinite radius centered on Earth or an observer, onto which all stars, planets, and sky objects appear **projected**. \n\n A “point” on the celestial sphere represents the **directions** of celestial objects in the sky. That is to say, any star in come specific direction, occupies a fixed point on the celestial sphere.",
   "related": [
     "Constellation",
     "Celestial Poles",
     "Celestial Equator"
   ],
-  "source": {
-    "pages": "1–2",
-    "section": "Looking Out from a Spinning, Round Earth"
-  },
-  "moreResources": {
-    "title": "Celestial sphere — Wikipedia",
-    "url": "https://en.wikipedia.org/wiki/Celestial_sphere"
-  }
+  "moreResources": [
+    {
+      "title": "Wikipedia Celestial sphere",
+      "url": "https://en.wikipedia.org/wiki/Celestial_sphere"
+    }
+  ]
 }
