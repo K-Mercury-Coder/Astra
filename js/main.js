@@ -282,26 +282,34 @@ function route() {
 
 async function init() {
   try {
-    const r = await fetch('content/glossary/manifest.json');
-    if (!r.ok) throw new Error('Cannot load manifest');
+    // Load the automatically generated glossary index.
+    const response = await fetch(
+      'content/glossary-index.json'
+    );
 
-    const files = await r.json();
-    entries = (
-      await Promise.all(
-        files.map(async f => {
-          const res = await fetch('content/glossary/' + encodeURIComponent(f));
-          if (!res.ok) throw new Error('Cannot load ' + f);
-          return res.json();
-        })
-      )
-    ).filter(x => x && x.term);
-  } catch (e) {
-    console.error(e);
+    if (!response.ok) {
+      throw new Error(
+        'Could not load generated glossary index'
+      );
+    }
+
+    entries = await response.json();
+
+    if (!Array.isArray(entries)) {
+      throw new Error('Unexpected glossary format');
+    }
+
+  } catch (error) {
+
+    console.error(error);
+
     app.innerHTML = `
       <div class="empty">
-        Could not load the knowledge base. Use a web server instead of opening index.html as a local file.
-        (${escapeHTML(e.message)})
-      </div>`;
+        Unable to load ASTRA Glossary:
+        ${escapeHTML(error.message)}
+      </div>
+    `;
+
     return;
   }
 
