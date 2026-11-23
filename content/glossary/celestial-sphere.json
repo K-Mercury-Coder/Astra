@@ -1,0 +1,29 @@
+{
+  "id": "U1.1.01",
+  "term": "Celestial Sphere",
+  "category": "The Celestial Sphere",
+  "unit": 1,
+  "level": "core",
+  "definition": "An imaginary sphere centered on Earth, used to represent directions toward celestial objects.",
+  "intuition": "Imagine stars fixed to a huge spherical surface. Although the stars lie at different distances, we can describe their directions using points on that sphere.",
+  "misconceptions": [
+    "The celestial sphere is not a physical shell.",
+    "Stars represented on it are not equally distant from Earth."
+  ],
+  "takeaway": "A map of directions, not of distances.",
+  "related": [
+    "U1.1.02",
+    "U1.1.07",
+    "U1.1.08"
+  ],
+  "source": {
+    "pages": "1–2",
+    "section": "Looking Out from a Spinning, Round Earth"
+  },
+  "furtherReading": {
+    "title": "Celestial sphere — Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Celestial_sphere"
+  },
+  "model": "",
+  "status": "draft"
+}

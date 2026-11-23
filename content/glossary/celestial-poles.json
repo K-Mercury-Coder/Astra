@@ -1,0 +1,29 @@
+{
+  "id": "U1.1.07",
+  "term": "Celestial Poles",
+  "category": "The Celestial Sphere",
+  "unit": 1,
+  "level": "core",
+  "definition": "The two points where Earth’s extended rotation axis intersects the celestial sphere.",
+  "intuition": "Extend Earth’s spin axis in both directions until it meets the imagined celestial sphere: these directions are the north and south celestial poles.",
+  "misconceptions": [
+    "Celestial poles are directions, not stars."
+  ],
+  "takeaway": "The apparent sky rotation is centered on the celestial poles.",
+  "related": [
+    "U1.1.01",
+    "U1.1.05",
+    "U1.1.06",
+    "U1.1.08"
+  ],
+  "source": {
+    "pages": "1–2",
+    "section": "Coordinates in the Sky"
+  },
+  "furtherReading": {
+    "title": "Celestial pole — Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Celestial_pole"
+  },
+  "model": "",
+  "status": "draft"
+}

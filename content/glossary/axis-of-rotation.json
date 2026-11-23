@@ -1,0 +1,27 @@
+{
+  "id": "U1.1.05",
+  "term": "Axis of Rotation",
+  "category": "The Celestial Sphere",
+  "unit": 1,
+  "level": "basic",
+  "definition": "An imaginary line about which an object rotates; Earth’s axis intersects the surface at its geographic poles.",
+  "intuition": "Think of a spinning globe rotating around a rod through its center. The axis stays approximately fixed relative to the distant stars during a day.",
+  "misconceptions": [
+    "An axis is a geometric line, not a physical rod."
+  ],
+  "takeaway": "The axis determines the directions of the celestial poles.",
+  "related": [
+    "U1.1.04",
+    "U1.1.07"
+  ],
+  "source": {
+    "pages": "1",
+    "section": "Looking Out from a Spinning, Round Earth"
+  },
+  "furtherReading": {
+    "title": "Earth's rotation — Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Earth%27s_rotation"
+  },
+  "model": "",
+  "status": "draft"
+}

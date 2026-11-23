@@ -1,0 +1,28 @@
+{
+  "id": "U1.1.06",
+  "term": "Polaris (North Star)",
+  "category": "The Celestial Sphere",
+  "unit": 1,
+  "level": "basic",
+  "definition": "A bright star very close to the North celestial pole.",
+  "intuition": "Because it lies near Earth’s extended rotation axis, Polaris appears nearly fixed while surrounding stars trace circles.",
+  "misconceptions": [
+    "Polaris is not exactly at the celestial pole.",
+    "Polaris is not the brightest night-sky star."
+  ],
+  "takeaway": "Its altitude is approximately the observer’s northern latitude.",
+  "related": [
+    "U1.1.07",
+    "U1.1.05"
+  ],
+  "source": {
+    "pages": "1",
+    "section": "Looking Out from a Spinning, Round Earth"
+  },
+  "furtherReading": {
+    "title": "Polaris — Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Polaris"
+  },
+  "model": "",
+  "status": "draft"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "U1.1.02",
+  "term": "Constellation",
+  "category": "The Celestial Sphere",
+  "unit": 1,
+  "level": "basic",
+  "definition": "One of 88 defined regions of the celestial sphere, generally named after a traditional star pattern.",
+  "intuition": "Constellations are like regions on a map of the sky: saying a star lies in Orion identifies a direction, not a shared physical location.",
+  "misconceptions": [
+    "Stars in one constellation need not be physically close."
+  ],
+  "takeaway": "Constellations organize the sky into named regions.",
+  "related": [
+    "U1.1.01"
+  ],
+  "source": {
+    "pages": "1",
+    "section": "Looking Out from a Spinning, Round Earth"
+  },
+  "furtherReading": {
+    "title": "Constellation — Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Constellation"
+  },
+  "model": "",
+  "status": "draft"
+}

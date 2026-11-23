@@ -1,0 +1,27 @@
+{
+  "id": "U1.1.04",
+  "term": "Earth's Rotation",
+  "category": "The Celestial Sphere",
+  "unit": 1,
+  "level": "basic",
+  "definition": "Earth’s spin about its axis from west to east, completing approximately one turn per sidereal day.",
+  "intuition": "A point on Earth is carried around the rotation axis, so its direction toward distant stars changes continuously.",
+  "misconceptions": [
+    "Rotation about an axis is different from revolution around the Sun."
+  ],
+  "takeaway": "Earth’s rotation produces the daily apparent motion of the sky.",
+  "related": [
+    "U1.1.03",
+    "U1.1.05"
+  ],
+  "source": {
+    "pages": "1",
+    "section": "Looking Out from a Spinning, Round Earth"
+  },
+  "furtherReading": {
+    "title": "Earth's rotation — Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Earth%27s_rotation"
+  },
+  "model": "models/rotating-earth.html",
+  "status": "draft"
+}

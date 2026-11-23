@@ -1,0 +1,28 @@
+{
+  "id": "U1.1.03",
+  "term": "Apparent Motion",
+  "category": "The Celestial Sphere",
+  "unit": 1,
+  "level": "core",
+  "definition": "The change in an object’s observed position due to motion of the object, the observer, or both.",
+  "intuition": "A rotating observer sees distant stationary objects shift across their field of view. Earth’s eastward rotation makes the sky appear to turn westward.",
+  "misconceptions": [
+    "Daily apparent motion does not imply stars orbit Earth each day."
+  ],
+  "takeaway": "Where something appears depends on the observer’s motion.",
+  "related": [
+    "U1.1.04",
+    "U1.1.05",
+    "U1.1.01"
+  ],
+  "source": {
+    "pages": "1",
+    "section": "Looking Out from a Spinning, Round Earth"
+  },
+  "furtherReading": {
+    "title": "Diurnal motion — Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Diurnal_motion"
+  },
+  "model": "models/rotating-earth.html",
+  "status": "draft"
+}

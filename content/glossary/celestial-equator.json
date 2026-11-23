@@ -1,0 +1,28 @@
+{
+  "id": "U1.1.08",
+  "term": "Celestial Equator",
+  "category": "The Celestial Sphere",
+  "unit": 1,
+  "level": "core",
+  "definition": "The great circle where Earth’s equatorial plane intersects the celestial sphere, at declination 0°.",
+  "intuition": "Extend Earth’s equator outward onto the imagined celestial sphere. This circle becomes the reference for measuring declination.",
+  "misconceptions": [
+    "The celestial equator is not the local horizon.",
+    "It is not the ecliptic."
+  ],
+  "takeaway": "The celestial equator is the zero-declination circle.",
+  "related": [
+    "U1.1.01",
+    "U1.1.07"
+  ],
+  "source": {
+    "pages": "2",
+    "section": "Coordinates in the Sky"
+  },
+  "furtherReading": {
+    "title": "Celestial equator — Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Celestial_equator"
+  },
+  "model": "",
+  "status": "draft"
+}
