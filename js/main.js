@@ -139,6 +139,55 @@ function formatDefinition(text) {
     .join('');
 }
 
+// Normalize names for case-insensitive matching.
+function normalizeTerm(value) {
+  return String(value || "")
+    .trim()
+    .replace(/\s+/g, " ")
+    .toLowerCase();
+}
+
+// Find a concept by its name.
+function findConcept(name) {
+  return entries.find(
+    entry => normalizeTerm(entry.term) === normalizeTerm(name)
+  );
+}
+
+// Find both direct and reverse relationships.
+function getRelatedConcepts(current) {
+
+  const result = new Map();
+
+  // 1. Concepts explicitly linked by this entry.
+  for (const name of current.related || []) {
+
+    const concept = findConcept(name);
+
+    if (concept && concept.term !== current.term) {
+      result.set(normalizeTerm(concept.term), concept);
+    }
+  }
+
+  // 2. Concepts that link back to this entry.
+  for (const entry of entries) {
+
+    if (entry.term === current.term) continue;
+
+    const linksBack = (entry.related || []).some(
+      name => normalizeTerm(name) === normalizeTerm(current.term)
+    );
+
+    if (linksBack) {
+      result.set(normalizeTerm(entry.term), entry);
+    }
+  }
+
+  return [...result.values()].sort(
+    (a, b) => a.term.localeCompare(b.term)
+  );
+}
+
 
 // Display one glossary entry.
 
@@ -157,11 +206,7 @@ function detail(term) {
   // Accept both old IDs and new term names
   // while we migrate existing entries.
 
-  const relatedEntries = (entry.related || [])
-    .map(name =>
-      entries.find(x => x.term === name || x.id === name)
-    )
-    .filter(Boolean);
+  const relatedEntries = getRelatedConcepts(entry);
 
   // Support old and new resource formats during migration.
 
