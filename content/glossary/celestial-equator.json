@@ -3,9 +3,5 @@
   "category": "The Celestial Sphere",
   "unit": 1,
   "level": "basic",
-  "definition": "The great circle where Earth’s equatorial plane intersects the celestial sphere, at declination 0°.",
-  "related": [
-    "U1.1.01",
-    "U1.1.07"
-  ]
+  "definition": "The great circle where Earth’s equatorial plane intersects the celestial sphere, at declination 0°."
 }
