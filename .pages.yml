@@ -58,13 +58,3 @@ content:
           - name: url
             label: Resource URL
             type: string
-
-      - name: model
-        label: Interactive model path
-        type: string
-      
-      - name: status
-        label: Review status
-        type: select
-        options:
-          values: [draft, published]
