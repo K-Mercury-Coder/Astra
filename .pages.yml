@@ -58,52 +58,54 @@ content:
           - name: url
             label: Resource URL
             type: string
-      - name: formulas
-        label: Formula Guide
-        type: collection
-        path: content/formulas
-        format: json
-        filename: "{primary}.json"
-        view:
-          primary: title
-        fields:
-          - { name: slug, label: Stable Slug, type: string, required: true }
-          - { name: title, label: Formula Title, type: string, required: true }
-          - { name: unit, label: Unit, type: number }
-          - { name: category, label: Category, type: string }
-          - { name: expression, label: Expression, type: string, required: true }
-          - { name: meaning, label: Physical Meaning, type: text }
-          - { name: variables, label: Variables, type: text }
-          - { name: conditions, label: Conditions, type: text }
-          - { name: commonMistake, label: Common Mistake, type: text }
-          - { name: related, label: Related Concepts, type: string, list: true }
-          - { name: model, label: Linked Model Slug, type: string }
-          - { name: source, label: Course Source, type: string }
+            
+  - name: formulas
+    label: Formula Guide
+    type: collection
+    path: content/formulas
+    format: json
+    filename: "{primary}.json"
+    view:
+      primary: title
+      fields:
+        - { name: slug, label: Stable Slug, type: string, required: true }
+        - { name: title, label: Formula Title, type: string, required: true }
+        - { name: unit, label: Unit, type: number }
+        - { name: category, label: Category, type: string }
+        - { name: expression, label: Expression, type: string, required: true }
+        - { name: meaning, label: Physical Meaning, type: text }
+        - { name: variables, label: Variables, type: text }
+        - { name: conditions, label: Conditions, type: text }
+        - { name: commonMistake, label: Common Mistake, type: text }
+        - { name: related, label: Related Concepts, type: string, list: true }
+        - { name: model, label: Linked Model Slug, type: string }
+        - { name: source, label: Course Source, type: string }
 
-      - name: models
-        label: Visual Models
-        type: collection
-        path: content/models
-        format: json
-        filename: "{primary}.json"
-        view:
-          primary: title
-        fields:
-          - { name: slug, label: Stable Slug, type: string, required: true }
-          - { name: title, label: Model Title, type: string, required: true }
-          - { name: unit, label: Unit, type: number }
-          - { name: category, label: Category, type: string }
-          - { name: description, label: Description, type: text }
-          - { name: file, label: HTML Model Path, type: string }
-          - { name: related, label: Related Concepts, type: string, list: true }
-          - { name: formulas, label: Linked Formula Slugs, type: string, list: true }
-      - name: resources
-        label: More Resources
-        type: object
-        list: true
-        fields:
-          - { name: title, label: Resource Title, type: string }
-          - { name: url, label: Resource URL, type: string }
-      - { name: source, label: Course Source, type: string }
+  - name: models
+    label: Visual Models
+    type: collection
+    path: content/models
+    format: json
+    filename: "{primary}.json"
+    view:
+      primary: title
+      fields:
+        - { name: slug, label: Stable Slug, type: string, required: true }
+        - { name: title, label: Model Title, type: string, required: true }
+        - { name: unit, label: Unit, type: number }
+        - { name: category, label: Category, type: string }
+        - { name: description, label: Description, type: text }
+        - { name: file, label: HTML Model Path, type: string }
+        - { name: related, label: Related Concepts, type: string, list: true }
+        - { name: formulas, label: Linked Formula Slugs, type: string, list: true }
+        
+        - name: resources
+          label: More Resources
+          type: object
+          list: true
+          fields:
+            - { name: title, label: Resource Title, type: string }
+            - { name: url, label: Resource URL, type: string }
+        - { name: source, label: Course Source, type: string }
       
         
