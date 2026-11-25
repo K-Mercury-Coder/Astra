@@ -61,11 +61,11 @@ function home() {
       <h2>Course Roadmap</h2>
       <p>See how ideas connect across units.</p>
     </a>
-    <div class="card">
+    <a class="card" href="#formulas">
       <div class="glyph">∑</div>
       <h2>Formula Guide</h2>
-      <p>Planned: key relationships and when they apply.</p>
-    </div>
+      <p>Understand relationships and when to use them.</p>
+    </a>
   </div>`;
 }
 
@@ -318,8 +318,16 @@ function route() {
 
   if (page === 'glossary') glossary();
   else if (page === 'term') detail(idParts.join('/'));
-  else if (page === 'visual') visual();
+  else if (page === 'visual') window.ASTRA_LEARNING.redner('visual');
   else if (page === 'roadmap') roadmap();
+  else if (page === 'formulas' ||
+           page === 'formula' ||
+           page === 'model'){
+    window.ASTRA_lEARNING.render(
+      page,
+      idParts.join('/')
+    );
+  }
   else home();
 
   window.scrollTo(0, 0);
