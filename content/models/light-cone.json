@@ -1,0 +1,12 @@
+{
+  "slug": "light-cone",
+  "title": "Spacetime & the Light Cone",
+  "unit": 11,
+  "category": "Special Relativity",
+  "description": "Drag an event through spacetime and change the observer velocity. Classify causal separation and verify the invariant interval.",
+  "file": "models/light-cone.html",
+  "related": ["Spacetime", "Worldline", "Light Cone", "Lorentz Transformation", "Invariant Interval"],
+  "formulas": ["lorentz-factor", "lorentz-transformation", "spacetime-interval"],
+  "resources": [{"title":"Interactive Minkowski diagram", "url":"https://www.ogetay.com/minkowski-diagram/"}],
+  "source": "Unit 11, pp. 6–10"
+}

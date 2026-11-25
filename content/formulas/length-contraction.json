@@ -1,0 +1,14 @@
+{
+  "slug": "length-contraction",
+  "title": "Length Contraction",
+  "unit": 11,
+  "category": "Special Relativity",
+  "expression": "L = L₀ / γ = L₀ √(1 − v²/c²)",
+  "meaning": "A moving object's length measured parallel to its motion is shorter than its rest length.",
+  "variables": "L₀: proper length in the object's rest frame; L: length in the observer frame; v: relative speed.",
+  "conditions": "Length endpoints must be measured simultaneously in the measuring observer's frame; contraction occurs along the direction of motion.",
+  "commonMistake": "Do not mix the two observers' definitions of simultaneous events.",
+  "related": ["Length Contraction", "Lorentz Transformation"],
+  "model": "light-cone",
+  "source": "Unit 11, pp. 8–9 (equations 27–28)"
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "lorentz-factor",
+  "title": "Lorentz Factor",
+  "unit": 11,
+  "category": "Special Relativity",
+  "expression": "γ = 1 / √(1 − v²/c²)",
+  "meaning": "The factor that appears in Lorentz transformations, time dilation, and length contraction.",
+  "variables": "v: relative speed between inertial observers; c: speed of light; γ: dimensionless factor.",
+  "conditions": "Inertial frames; |v| < c.",
+  "commonMistake": "γ is not the observer's absolute speed and is not defined by this expression for v ≥ c.",
+  "related": ["Lorentz Transformation", "Time Dilation", "Length Contraction"],
+  "model": "light-cone",
+  "source": "Unit 11, pp. 7–9 (equations 22–23, 28, 30)"
+}

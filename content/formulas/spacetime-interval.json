@@ -1,0 +1,14 @@
+{
+  "slug": "spacetime-interval",
+  "title": "Invariant Spacetime Interval",
+  "unit": 11,
+  "category": "Causality",
+  "expression": "s² = c²(Δt)² − (Δx)²",
+  "meaning": "A Lorentz-invariant quantity classifying separation between two events in one space dimension: timelike (positive), lightlike (zero), or spacelike (negative).",
+  "variables": "Δt: time separation; Δx: spatial separation; c: speed of light; s²: invariant interval (which can be negative).",
+  "conditions": "Flat spacetime, one spatial dimension. In 3D replace (Δx)² by (Δx)²+(Δy)²+(Δz)².",
+  "commonMistake": "Do not treat s² as ordinary Euclidean distance squared; s² may be negative.",
+  "related": ["Light Cone", "Causality", "Spacetime"],
+  "model": "light-cone",
+  "source": "Unit 11, p. 10 (equations 37–38)"
+}

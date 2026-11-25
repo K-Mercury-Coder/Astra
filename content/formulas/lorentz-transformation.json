@@ -1,0 +1,14 @@
+{
+  "slug": "lorentz-transformation",
+  "title": "Lorentz Transformation (1D)",
+  "unit": 11,
+  "category": "Special Relativity",
+  "expression": "x′ = γ(x − vt);  t′ = γ(t − vx/c²)",
+  "meaning": "Relates the coordinates of the same spacetime event in two inertial frames moving relative to one another along the x-axis.",
+  "variables": "x, t: event coordinates in O; x′, t′: coordinates in O′; v: velocity of O′ relative to O; γ: Lorentz factor.",
+  "conditions": "Frames have aligned axes and coincident origins at t = t′ = 0; |v| < c.",
+  "commonMistake": "t′ is generally not equal to t; simultaneity depends on the observer.",
+  "related": ["Spacetime", "Lorentz Transformation", "Inertial Observer"],
+  "model": "light-cone",
+  "source": "Unit 11, p. 7 (equation 23)"
+}

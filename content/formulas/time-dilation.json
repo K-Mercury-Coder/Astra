@@ -1,0 +1,14 @@
+{
+  "slug": "time-dilation",
+  "title": "Time Dilation",
+  "unit": 11,
+  "category": "Special Relativity",
+  "expression": "Δt = γ Δτ",
+  "meaning": "For two ticks of one moving inertial clock, an observer measuring that clock in motion finds a longer interval than the proper time recorded by the clock.",
+  "variables": "Δτ: proper time measured by the clock; Δt: coordinate time interval in the frame in which it moves; γ: Lorentz factor.",
+  "conditions": "Constant relative velocity between inertial frames; two events are ticks at the same place in the clock's rest frame.",
+  "commonMistake": "Time dilation is not merely a light-travel-time delay for receiving the clock's signals.",
+  "related": ["Time Dilation", "Proper Time", "Lorentz Transformation"],
+  "model": "light-cone",
+  "source": "Unit 11, p. 9 (equations 29–30)"
+}

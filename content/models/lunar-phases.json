@@ -1,0 +1,11 @@
+{
+  "slug": "lunar-phases",
+  "title": "The Lunar Cycle",
+  "unit": 2,
+  "category": "The Moon & Its Phases",
+  "description": "Move the Moon in its orbit and compare the Sun–Earth–Moon geometry with the Moon's appearance from Earth.",
+  "file": "models/lunar-phases.html",
+  "related": ["Lunar Phases", "Synodic Month", "Sidereal Month", "New Moon", "Full Moon"],
+  "resources": [{"title": "NASA — Lunar Phases Interactive Lab", "url": "https://science.nasa.gov/learn/heat/resource/lunar-phases-interactive-lab/"}],
+  "source": "Unit 2, p. 3"
+}
