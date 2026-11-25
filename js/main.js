@@ -318,12 +318,12 @@ function route() {
 
   if (page === 'glossary') glossary();
   else if (page === 'term') detail(idParts.join('/'));
-  else if (page === 'visual') window.ASTRA_LEARNING.redner('visual');
+  else if (page === 'visual') window.ASTRA_LEARNING.render('visual');
   else if (page === 'roadmap') roadmap();
   else if (page === 'formulas' ||
            page === 'formula' ||
            page === 'model'){
-    window.ASTRA_lEARNING.render(
+    window.ASTRA_LEARNING.render(
       page,
       idParts.join('/')
     );
